@@ -1,0 +1,34 @@
+# Ignore virtual environments
+venv/
+.envs/
+.env
+
+# Ignore database files
+test.db
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore migrations
+migrations/
+b2b_alembic/
+
+# Ignore configuration files
+alembic.ini
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore dependencies (optional, if using a package manager)
+# requirements.txt
+req.txt
+requirements/
+
+# Ignore Locust test script (if not needed in repo)
+locustest.py
+.gitlab-ci.yml
+
+global_fund_sheet_cred.json
